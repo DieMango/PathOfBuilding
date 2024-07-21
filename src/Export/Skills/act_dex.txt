@@ -28,7 +28,11 @@ local skills, mod, flag, skill = ...
 
 #skill Ambush
 #flags spell movement duration travel
+<<<<<<< HEAD
 	statMap = {
+=======
+statMap = {
+>>>>>>> 9d414364 (Added support for Ambush skill)
 		["ambush_additional_critical_strike_chance_permyriad"] = {
 			mod("CritChance", "BASE", nil, ModFlag.Melee, 0, { type = "GlobalEffect", effectType = "Buff", effectName = "Ambush" }),
 			div = 100,
